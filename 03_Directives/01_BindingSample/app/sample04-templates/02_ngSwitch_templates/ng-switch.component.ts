@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
     templateUrl: "ng-switch.component.html"
 })
 export class NgSwitchTemplateComponent {
-    choice: string = "1";
+    choice: string = "2";
 }

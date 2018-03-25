@@ -12,22 +12,22 @@ var index_1 = require("./index");
 var LifecycleSampleModule = (function () {
     function LifecycleSampleModule() {
     }
+    LifecycleSampleModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule],
+            declarations: [
+                index_1.Sample1Component,
+                index_1.Sample1HostComponent,
+                index_1.Sample2Component,
+                index_1.Sample2HostComponent,
+                index_1.Sample3Component,
+                index_1.Sample3HostComponent,
+                index_1.Sample4Component,
+                index_1.Sample4HostComponent
+            ]
+        })
+    ], LifecycleSampleModule);
     return LifecycleSampleModule;
 }());
-LifecycleSampleModule = __decorate([
-    core_1.NgModule({
-        imports: [common_1.CommonModule],
-        declarations: [
-            index_1.Sample1Component,
-            index_1.Sample1HostComponent,
-            index_1.Sample2Component,
-            index_1.Sample2HostComponent,
-            index_1.Sample3Component,
-            index_1.Sample3HostComponent,
-            index_1.Sample4Component,
-            index_1.Sample4HostComponent
-        ]
-    })
-], LifecycleSampleModule);
 exports.LifecycleSampleModule = LifecycleSampleModule;
 //# sourceMappingURL=lifecycle-samples.module.js.map

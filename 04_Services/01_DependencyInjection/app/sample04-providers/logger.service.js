@@ -16,10 +16,10 @@ var Logger = (function () {
         console.log(message);
     };
     Logger.prototype.log2 = function () { };
+    Logger = __decorate([
+        core_1.Injectable()
+    ], Logger);
     return Logger;
 }());
-Logger = __decorate([
-    core_1.Injectable()
-], Logger);
 exports.Logger = Logger;
 //# sourceMappingURL=logger.service.js.map

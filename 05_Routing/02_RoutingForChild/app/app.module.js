@@ -16,22 +16,22 @@ var phrases_module_1 = require("./phrases/phrases.module");
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                platform_browser_1.BrowserModule,
+                app_routing_module_1.AppRoutingModule,
+                phrases_module_1.PhrasesModule
+            ],
+            declarations: [
+                app_component_1.AppComponent,
+                home_component_1.HomeComponent
+            ],
+            providers: [phrase_service_1.PhraseService],
+            bootstrap: [app_component_1.AppComponent]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_browser_1.BrowserModule,
-            app_routing_module_1.AppRoutingModule,
-            phrases_module_1.PhrasesModule
-        ],
-        declarations: [
-            app_component_1.AppComponent,
-            home_component_1.HomeComponent
-        ],
-        providers: [phrase_service_1.PhraseService],
-        bootstrap: [app_component_1.AppComponent]
-    })
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

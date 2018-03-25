@@ -20,10 +20,10 @@ var CounterService = (function () {
     CounterService.prototype.getValue = function () {
         return this.counter;
     };
+    CounterService = __decorate([
+        core_1.Injectable()
+    ], CounterService);
     return CounterService;
 }());
-CounterService = __decorate([
-    core_1.Injectable()
-], CounterService);
 exports.CounterService = CounterService;
 //# sourceMappingURL=counter.service.js.map

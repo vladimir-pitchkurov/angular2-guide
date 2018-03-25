@@ -19,15 +19,15 @@ var DataListComponent = (function () {
     DataListComponent.prototype.ngOnInit = function () {
         this.itemsSource = this.dataService.getData();
     };
+    DataListComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "data-list",
+            templateUrl: "data-list.component.html"
+        }),
+        __metadata("design:paramtypes", [index_1.DataService])
+    ], DataListComponent);
     return DataListComponent;
 }());
-DataListComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "data-list",
-        templateUrl: "data-list.component.html"
-    }),
-    __metadata("design:paramtypes", [index_1.DataService])
-], DataListComponent);
 exports.DataListComponent = DataListComponent;
 //# sourceMappingURL=data-list.component.js.map

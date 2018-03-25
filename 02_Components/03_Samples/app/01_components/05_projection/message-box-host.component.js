@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var MessageBoxHostComponent = (function () {
     function MessageBoxHostComponent() {
     }
+    MessageBoxHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "message-box-host",
+            templateUrl: "message-box-host.component.html"
+        })
+    ], MessageBoxHostComponent);
     return MessageBoxHostComponent;
 }());
-MessageBoxHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "message-box-host",
-        templateUrl: "message-box-host.component.html"
-    })
-], MessageBoxHostComponent);
 exports.MessageBoxHostComponent = MessageBoxHostComponent;
 //# sourceMappingURL=message-box-host.component.js.map

@@ -17,20 +17,20 @@ var providers_samples_module_1 = require("./sample04-providers/providers-samples
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                platform_browser_1.BrowserModule,
+                router_1.RouterModule.forRoot(app_routes_1.routes),
+                simple_service_module_1.SimpleServiceModule,
+                service_hierarchy_module_1.ServiceHierarchyModule,
+                providers_samples_module_1.ProvidersSamplesModule
+            ],
+            declarations: [app_component_1.AppComponent],
+            bootstrap: [app_component_1.AppComponent]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_browser_1.BrowserModule,
-            router_1.RouterModule.forRoot(app_routes_1.routes),
-            simple_service_module_1.SimpleServiceModule,
-            service_hierarchy_module_1.ServiceHierarchyModule,
-            providers_samples_module_1.ProvidersSamplesModule
-        ],
-        declarations: [app_component_1.AppComponent],
-        bootstrap: [app_component_1.AppComponent]
-    })
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

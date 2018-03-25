@@ -54,14 +54,14 @@ var Sample4Component = (function () {
     Sample4Component.prototype.test = function () {
         console.log("test method");
     };
+    Sample4Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample4",
+            templateUrl: "sample4.component.html"
+        })
+    ], Sample4Component);
     return Sample4Component;
 }());
-Sample4Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample4",
-        templateUrl: "sample4.component.html"
-    })
-], Sample4Component);
 exports.Sample4Component = Sample4Component;
 //# sourceMappingURL=sample4.component.js.map

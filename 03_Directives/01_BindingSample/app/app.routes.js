@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("./sample01-binding/index");
 var index_2 = require("./sample02-two-way-databinding/index");
 var index_3 = require("./sample03-built-in-directives/index");

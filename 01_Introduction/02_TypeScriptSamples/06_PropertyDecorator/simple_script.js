@@ -26,8 +26,8 @@ var Test = (function () {
         this.name = "...";
     }
     __decorate([
-        Override("Hello world"), 
-        __metadata('design:type', String)
+        Override("Hello world"),
+        __metadata("design:type", String)
     ], Test.prototype, "name", void 0);
     return Test;
 }());
@@ -41,8 +41,8 @@ var Test2 = (function () {
     function Test2() {
     }
     __decorate([
-        ReadOnly, 
-        __metadata('design:type', String)
+        ReadOnly,
+        __metadata("design:type", String)
     ], Test2.prototype, "name", void 0);
     return Test2;
 }());

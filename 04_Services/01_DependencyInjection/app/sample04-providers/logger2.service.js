@@ -15,10 +15,10 @@ var Logger2 = (function () {
         this.messages.push(message);
         console.log("Logger 2 " + message);
     };
+    Logger2 = __decorate([
+        core_1.Injectable()
+    ], Logger2);
     return Logger2;
 }());
-Logger2 = __decorate([
-    core_1.Injectable()
-], Logger2);
 exports.Logger2 = Logger2;
 //# sourceMappingURL=logger2.service.js.map

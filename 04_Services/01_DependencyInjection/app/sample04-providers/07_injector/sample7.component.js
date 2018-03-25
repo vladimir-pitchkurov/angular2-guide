@@ -19,16 +19,16 @@ var Sample7Component = (function () {
     Sample7Component.prototype.log = function () {
         this.logger.log("Hello world");
     };
+    Sample7Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample7",
+            templateUrl: "sample7.component.html",
+            providers: [index_1.Logger]
+        }),
+        __metadata("design:paramtypes", [core_1.Injector])
+    ], Sample7Component);
     return Sample7Component;
 }());
-Sample7Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample7",
-        templateUrl: "sample7.component.html",
-        providers: [index_1.Logger]
-    }),
-    __metadata("design:paramtypes", [core_1.Injector])
-], Sample7Component);
 exports.Sample7Component = Sample7Component;
 //# sourceMappingURL=sample7.component.js.map

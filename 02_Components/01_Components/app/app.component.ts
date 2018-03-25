@@ -4,7 +4,10 @@ import { Component } from "@angular/core";
     moduleId: module.id,
     selector: "my-app",
     templateUrl: "app.component.html",
-    styleUrls: ["app.component.css"]
+    styleUrls: ["app.component.css"],
+    outputs: ['rows']
 }) export class AppComponent {
 
+    rows: any =3;
+    asd: number = 3;
 }

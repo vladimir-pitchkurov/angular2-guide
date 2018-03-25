@@ -13,14 +13,14 @@ var ItemComponent = (function () {
     ItemComponent.prototype.changeData = function () {
         this.data = new Date().getTime();
     };
+    ItemComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "item",
+            templateUrl: "item.component.html"
+        })
+    ], ItemComponent);
     return ItemComponent;
 }());
-ItemComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "item",
-        templateUrl: "item.component.html"
-    })
-], ItemComponent);
 exports.ItemComponent = ItemComponent;
 //# sourceMappingURL=item.component.js.map

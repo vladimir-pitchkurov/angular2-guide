@@ -32,22 +32,22 @@ var TimerComponent = (function () {
         this.currentValue++;
         this.tick.emit(this.currentValue);
     };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], TimerComponent.prototype, "interval", void 0);
+    __decorate([
+        core_1.Output(),
+        __metadata("design:type", core_1.EventEmitter)
+    ], TimerComponent.prototype, "tick", void 0);
+    TimerComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "timer",
+            templateUrl: "timer.component.html"
+        })
+    ], TimerComponent);
     return TimerComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Number)
-], TimerComponent.prototype, "interval", void 0);
-__decorate([
-    core_1.Output(),
-    __metadata("design:type", core_1.EventEmitter)
-], TimerComponent.prototype, "tick", void 0);
-TimerComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "timer",
-        templateUrl: "timer.component.html"
-    })
-], TimerComponent);
 exports.TimerComponent = TimerComponent;
 //# sourceMappingURL=timer.component.js.map

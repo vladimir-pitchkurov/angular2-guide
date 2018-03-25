@@ -13,20 +13,20 @@ var home_component_1 = require("./home/home.component");
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
+    AppRoutingModule = __decorate([
+        core_1.NgModule({
+            imports: [router_1.RouterModule.forRoot([
+                    {
+                        path: "",
+                        redirectTo: "home",
+                        pathMatch: "full"
+                    },
+                    { path: "home", component: home_component_1.HomeComponent },
+                ])],
+            exports: [router_1.RouterModule] // делаем re-export модуля для использования директив при маршрутизации
+        })
+    ], AppRoutingModule);
     return AppRoutingModule;
 }());
-AppRoutingModule = __decorate([
-    core_1.NgModule({
-        imports: [router_1.RouterModule.forRoot([
-                {
-                    path: "",
-                    redirectTo: "home",
-                    pathMatch: "full"
-                },
-                { path: "home", component: home_component_1.HomeComponent },
-            ])],
-        exports: [router_1.RouterModule] // делаем re-export модуля для использования директив при маршрутизации
-    })
-], AppRoutingModule);
 exports.AppRoutingModule = AppRoutingModule;
 //# sourceMappingURL=app-routing.module.js.map

@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var CounterParentComponent = (function () {
     function CounterParentComponent() {
     }
+    CounterParentComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "counter-parent",
+            templateUrl: "counter-parent.component.html"
+        })
+    ], CounterParentComponent);
     return CounterParentComponent;
 }());
-CounterParentComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "counter-parent",
-        templateUrl: "counter-parent.component.html"
-    })
-], CounterParentComponent);
 exports.CounterParentComponent = CounterParentComponent;
 //# sourceMappingURL=counter-parent.component.js.map

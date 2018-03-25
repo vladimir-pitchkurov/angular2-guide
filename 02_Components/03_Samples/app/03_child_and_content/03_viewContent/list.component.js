@@ -19,19 +19,19 @@ var ListComponent = (function () {
         this.count = this.items.length;
         this.items.forEach(function (x) { return x.changeData(); });
     };
+    __decorate([
+        core_1.ContentChildren(item_component_1.ItemComponent) // Для получения доступа к компонентам полученым через ng-content
+        ,
+        __metadata("design:type", core_1.QueryList)
+    ], ListComponent.prototype, "items", void 0);
+    ListComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "list",
+            templateUrl: "list.component.html"
+        })
+    ], ListComponent);
     return ListComponent;
 }());
-__decorate([
-    core_1.ContentChildren(item_component_1.ItemComponent) // Для получения доступа к компонентам полученым через ng-content
-    ,
-    __metadata("design:type", core_1.QueryList)
-], ListComponent.prototype, "items", void 0);
-ListComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "list",
-        templateUrl: "list.component.html"
-    })
-], ListComponent);
 exports.ListComponent = ListComponent;
 //# sourceMappingURL=list.component.js.map

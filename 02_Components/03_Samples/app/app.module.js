@@ -17,20 +17,20 @@ var app_routes_1 = require("./app.routes");
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                platform_browser_1.BrowserModule,
+                components_samples_module_1.ComponentsSampleModule,
+                lifecycle_samples_module_1.LifecycleSampleModule,
+                child_and_content_samples_module_1.ChildAndContentSampleModule,
+                router_1.RouterModule.forRoot(app_routes_1.routes)
+            ],
+            declarations: [app_component_1.AppComponent],
+            bootstrap: [app_component_1.AppComponent]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_browser_1.BrowserModule,
-            components_samples_module_1.ComponentsSampleModule,
-            lifecycle_samples_module_1.LifecycleSampleModule,
-            child_and_content_samples_module_1.ChildAndContentSampleModule,
-            router_1.RouterModule.forRoot(app_routes_1.routes)
-        ],
-        declarations: [app_component_1.AppComponent],
-        bootstrap: [app_component_1.AppComponent]
-    })
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

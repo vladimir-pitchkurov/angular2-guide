@@ -24,16 +24,16 @@ var Counter1Component = (function () {
         this.counterService.decrement();
         this.counter = this.counterService.getValue();
     };
+    Counter1Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "counter-1",
+            templateUrl: "counter1.component.html",
+            providers: [index_1.CounterService] // данный компонент использует свой экземпляр сервиса
+        }),
+        __metadata("design:paramtypes", [index_1.CounterService])
+    ], Counter1Component);
     return Counter1Component;
 }());
-Counter1Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "counter-1",
-        templateUrl: "counter1.component.html",
-        providers: [index_1.CounterService] // данный компонент использует свой экземпляр сервиса
-    }),
-    __metadata("design:paramtypes", [index_1.CounterService])
-], Counter1Component);
 exports.Counter1Component = Counter1Component;
 //# sourceMappingURL=counter1.component.js.map

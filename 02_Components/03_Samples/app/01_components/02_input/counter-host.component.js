@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var CounterHostComponent = (function () {
     function CounterHostComponent() {
     }
+    CounterHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "counter-host",
+            templateUrl: "counter-host.component.html"
+        })
+    ], CounterHostComponent);
     return CounterHostComponent;
 }());
-CounterHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "counter-host",
-        templateUrl: "counter-host.component.html"
-    })
-], CounterHostComponent);
 exports.CounterHostComponent = CounterHostComponent;
 //# sourceMappingURL=counter-host.component.js.map

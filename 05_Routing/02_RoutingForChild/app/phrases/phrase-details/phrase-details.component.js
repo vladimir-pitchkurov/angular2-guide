@@ -34,17 +34,17 @@ var PhraseDetailsComponent = (function () {
     PhraseDetailsComponent.prototype.goToPhrasesList = function () {
         this.router.navigate(["/phrases"]); // перенаправляем пользователя на PhraseListComponent
     };
+    PhraseDetailsComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "phrase-details",
+            templateUrl: "phrase-details.component.html"
+        }),
+        __metadata("design:paramtypes", [router_1.Router,
+            router_1.ActivatedRoute,
+            phrase_service_1.PhraseService])
+    ], PhraseDetailsComponent);
     return PhraseDetailsComponent;
 }());
-PhraseDetailsComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "phrase-details",
-        templateUrl: "phrase-details.component.html"
-    }),
-    __metadata("design:paramtypes", [router_1.Router,
-        router_1.ActivatedRoute,
-        phrase_service_1.PhraseService])
-], PhraseDetailsComponent);
 exports.PhraseDetailsComponent = PhraseDetailsComponent;
 //# sourceMappingURL=phrase-details.component.js.map

@@ -14,19 +14,19 @@ var phrases_routing_module_1 = require("./phrases-routing.module");
 var PhrasesModule = (function () {
     function PhrasesModule() {
     }
+    PhrasesModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                common_1.CommonModule,
+                phrases_routing_module_1.PhrasesRoutingModule // настройки маршрутизации для модуля PhrasesModule
+            ],
+            declarations: [
+                phrase_details_component_1.PhraseDetailsComponent,
+                phrase_list_component_1.PhraseListComponent
+            ]
+        })
+    ], PhrasesModule);
     return PhrasesModule;
 }());
-PhrasesModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            common_1.CommonModule,
-            phrases_routing_module_1.PhrasesRoutingModule // настройки маршрутизации для модуля PhrasesModule
-        ],
-        declarations: [
-            phrase_details_component_1.PhraseDetailsComponent,
-            phrase_list_component_1.PhraseListComponent
-        ]
-    })
-], PhrasesModule);
 exports.PhrasesModule = PhrasesModule;
 //# sourceMappingURL=phrases.module.js.map

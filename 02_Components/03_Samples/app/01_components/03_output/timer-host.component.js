@@ -16,14 +16,14 @@ var TimerHostComponent = (function () {
     TimerHostComponent.prototype.tickHandler2 = function (value) {
         console.log("Tick Hanlder 2 - " + value);
     };
+    TimerHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "timer-host",
+            templateUrl: "timer-host.component.html"
+        })
+    ], TimerHostComponent);
     return TimerHostComponent;
 }());
-TimerHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "timer-host",
-        templateUrl: "timer-host.component.html"
-    })
-], TimerHostComponent);
 exports.TimerHostComponent = TimerHostComponent;
 //# sourceMappingURL=timer-host.component.js.map

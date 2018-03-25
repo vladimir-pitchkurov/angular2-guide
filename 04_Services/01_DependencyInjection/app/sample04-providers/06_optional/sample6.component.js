@@ -27,17 +27,17 @@ var Sample6Component = (function () {
             console.log("Option 2");
         }
     };
+    Sample6Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample6",
+            templateUrl: "sample6.component.html",
+            providers: [index_1.Logger]
+        }),
+        __param(0, core_1.Optional()),
+        __metadata("design:paramtypes", [index_1.Logger])
+    ], Sample6Component);
     return Sample6Component;
 }());
-Sample6Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample6",
-        templateUrl: "sample6.component.html",
-        providers: [index_1.Logger]
-    }),
-    __param(0, core_1.Optional()),
-    __metadata("design:paramtypes", [index_1.Logger])
-], Sample6Component);
 exports.Sample6Component = Sample6Component;
 //# sourceMappingURL=sample6.component.js.map

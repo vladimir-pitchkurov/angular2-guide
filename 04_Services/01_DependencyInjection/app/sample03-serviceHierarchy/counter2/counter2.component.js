@@ -25,15 +25,15 @@ var Counter2Component = (function () {
         this.counterService.decrement();
         this.counter = this.counterService.getValue();
     };
+    Counter2Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "counter-2",
+            templateUrl: "counter2.component.html"
+        }),
+        __metadata("design:paramtypes", [index_1.CounterService])
+    ], Counter2Component);
     return Counter2Component;
 }());
-Counter2Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "counter-2",
-        templateUrl: "counter2.component.html"
-    }),
-    __metadata("design:paramtypes", [index_1.CounterService])
-], Counter2Component);
 exports.Counter2Component = Counter2Component;
 //# sourceMappingURL=counter2.component.js.map

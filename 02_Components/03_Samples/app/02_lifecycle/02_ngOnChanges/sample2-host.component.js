@@ -14,14 +14,14 @@ var Sample2HostComponent = (function () {
     Sample2HostComponent.prototype.increment = function () {
         this.counter++;
     };
+    Sample2HostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample2-host",
+            templateUrl: "sample2-host.component.html"
+        })
+    ], Sample2HostComponent);
     return Sample2HostComponent;
 }());
-Sample2HostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample2-host",
-        templateUrl: "sample2-host.component.html"
-    })
-], Sample2HostComponent);
 exports.Sample2HostComponent = Sample2HostComponent;
 //# sourceMappingURL=sample2-host.component.js.map

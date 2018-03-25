@@ -12,14 +12,14 @@ var index_1 = require("./index");
 var ServiceHierarchyModule = (function () {
     function ServiceHierarchyModule() {
     }
+    ServiceHierarchyModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule],
+            declarations: [index_1.CounterParentComponent, index_1.Counter1Component, index_1.Counter2Component, index_1.Counter3Component],
+            providers: [index_1.CounterService]
+        })
+    ], ServiceHierarchyModule);
     return ServiceHierarchyModule;
 }());
-ServiceHierarchyModule = __decorate([
-    core_1.NgModule({
-        imports: [common_1.CommonModule],
-        declarations: [index_1.CounterParentComponent, index_1.Counter1Component, index_1.Counter2Component, index_1.Counter3Component],
-        providers: [index_1.CounterService]
-    })
-], ServiceHierarchyModule);
 exports.ServiceHierarchyModule = ServiceHierarchyModule;
 //# sourceMappingURL=service-hierarchy.module.js.map

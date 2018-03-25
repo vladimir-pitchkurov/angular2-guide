@@ -18,15 +18,15 @@ var Sample3Component = (function () {
         }
         console.log(msgArray.join("; "));
     };
+    Sample3Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample3",
+            templateUrl: "sample3.component.html",
+            inputs: ["name", "value"]
+        })
+    ], Sample3Component);
     return Sample3Component;
 }());
-Sample3Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample3",
-        templateUrl: "sample3.component.html",
-        inputs: ["name", "value"]
-    })
-], Sample3Component);
 exports.Sample3Component = Sample3Component;
 //# sourceMappingURL=sample3.component.js.map

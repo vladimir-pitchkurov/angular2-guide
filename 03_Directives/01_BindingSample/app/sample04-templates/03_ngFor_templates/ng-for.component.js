@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var NgForTemplateComponent = (function () {
     function NgForTemplateComponent() {
@@ -21,8 +22,8 @@ var NgForTemplateComponent = (function () {
             moduleId: module.id,
             selector: "ngfortemplate-sample",
             templateUrl: "ng-for.component.html"
-        }), 
-        __metadata('design:paramtypes', [])
+        }),
+        __metadata("design:paramtypes", [])
     ], NgForTemplateComponent);
     return NgForTemplateComponent;
 }());

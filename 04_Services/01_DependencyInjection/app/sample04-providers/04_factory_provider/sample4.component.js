@@ -18,21 +18,21 @@ var Sample4Component = (function () {
     Sample4Component.prototype.logMessage = function () {
         this.logger.log(this.message);
     };
+    Sample4Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample4",
+            templateUrl: "sample4.component.html",
+            providers: [{
+                    provide: index_1.Logger,
+                    useFactory: function () {
+                        return new index_1.Logger3("test");
+                    }
+                }]
+        }),
+        __metadata("design:paramtypes", [index_1.Logger])
+    ], Sample4Component);
     return Sample4Component;
 }());
-Sample4Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample4",
-        templateUrl: "sample4.component.html",
-        providers: [{
-                provide: index_1.Logger,
-                useFactory: function () {
-                    return new index_1.Logger3("test");
-                }
-            }]
-    }),
-    __metadata("design:paramtypes", [index_1.Logger])
-], Sample4Component);
 exports.Sample4Component = Sample4Component;
 //# sourceMappingURL=sample4.component.js.map

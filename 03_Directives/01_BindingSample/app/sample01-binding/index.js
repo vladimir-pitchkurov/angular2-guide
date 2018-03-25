@@ -2,6 +2,7 @@
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./01_interpolation/interpolation.component"));
 __export(require("./02_property_binding/property-binding.component"));
 __export(require("./03_event_binding/event-binding.component"));

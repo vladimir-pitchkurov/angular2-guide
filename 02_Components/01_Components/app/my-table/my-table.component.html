@@ -1,0 +1,42 @@
+<h1 style="color: red; font-size: 50px">Rows = {{rows}}</h1>
+<button (click)="onSave()">Save 1</button> <br />
+<!--on-click - canonical form-->
+<button on-click="onSave()">Save 2</button> <br />
+
+
+<button (click)="testEvent($event)">Test Event Object</button> <br />
+<svg width="100" height="100">
+    <circle
+            [attr.r]="value"
+            cx="50"
+            cy="50"
+            stroke="green"
+            stroke-width="4"
+            fill="yellow" />
+</svg>
+<button (click)="increase()">+</button>
+<button (click)="decrease()">-</button>
+<hr>
+<!--<label for="x-input">X</label>
+<input type="text" id="x-input" [(ngModel)]="xValue" />
+
+
+<label for="y-input">Y</label>
+<input type="text" id="y-input" [(ngModel)]="yValue" />
+
+<button (click)="calculate()">Caclulate</button>
+<button (click)="reset()">Reset</button>-->
+
+<div>Result - {{result}}</div>
+<table rows="2">
+    <tbody>
+    <tr *ngFor="let t of products; let i = index" >
+        <td>{{t.id}}</td>
+        <td>{{t.name}}</td>
+        <td>{{t.price}}</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<br>
+<p>Rows: {{rows}}</p>

@@ -13,15 +13,15 @@ var Sample2Component = (function () {
     Sample2Component.prototype.ngOnChanges = function () {
         console.log("ngOnChanges called.");
     };
+    Sample2Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample2",
+            templateUrl: "sample2.component.html",
+            inputs: ["value"]
+        })
+    ], Sample2Component);
     return Sample2Component;
 }());
-Sample2Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample2",
-        templateUrl: "sample2.component.html",
-        inputs: ["value"]
-    })
-], Sample2Component);
 exports.Sample2Component = Sample2Component;
 //# sourceMappingURL=sample2.component.js.map

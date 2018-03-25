@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var InterpolationComponent = (function () {
     function InterpolationComponent() {
@@ -22,8 +23,8 @@ var InterpolationComponent = (function () {
             moduleId: module.id,
             selector: "interpolation-smp",
             templateUrl: "interpolation.component.html"
-        }), 
-        __metadata('design:paramtypes', [])
+        }),
+        __metadata("design:paramtypes", [])
     ], InterpolationComponent);
     return InterpolationComponent;
 }());

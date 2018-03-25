@@ -29,15 +29,15 @@ var NameCardComponent = (function () {
         enumerable: true,
         configurable: true
     });
+    NameCardComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "namecard",
+            templateUrl: "name-card.component.html",
+            inputs: ["firstName", "lastName"]
+        })
+    ], NameCardComponent);
     return NameCardComponent;
 }());
-NameCardComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "namecard",
-        templateUrl: "name-card.component.html",
-        inputs: ["firstName", "lastName"]
-    })
-], NameCardComponent);
 exports.NameCardComponent = NameCardComponent;
 //# sourceMappingURL=name-card.component.js.map

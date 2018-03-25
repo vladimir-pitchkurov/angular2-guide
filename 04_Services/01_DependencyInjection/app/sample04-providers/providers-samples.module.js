@@ -13,13 +13,13 @@ var index_1 = require("./index");
 var ProvidersSamplesModule = (function () {
     function ProvidersSamplesModule() {
     }
+    ProvidersSamplesModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule, forms_1.FormsModule],
+            declarations: [index_1.Sample1Component, index_1.Sample2Component, index_1.Sample3Component, index_1.Sample4Component, index_1.Sample5Component, index_1.Sample6Component, index_1.Sample7Component, index_1.Sample8Component]
+        })
+    ], ProvidersSamplesModule);
     return ProvidersSamplesModule;
 }());
-ProvidersSamplesModule = __decorate([
-    core_1.NgModule({
-        imports: [common_1.CommonModule, forms_1.FormsModule],
-        declarations: [index_1.Sample1Component, index_1.Sample2Component, index_1.Sample3Component, index_1.Sample4Component, index_1.Sample5Component, index_1.Sample6Component, index_1.Sample7Component, index_1.Sample8Component]
-    })
-], ProvidersSamplesModule);
 exports.ProvidersSamplesModule = ProvidersSamplesModule;
 //# sourceMappingURL=providers-samples.module.js.map

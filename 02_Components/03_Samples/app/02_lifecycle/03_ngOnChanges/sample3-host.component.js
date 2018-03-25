@@ -21,14 +21,14 @@ var Sample3HostComponent = (function () {
         this.nameValue = "value " + new Date().getTime();
         this.counter++;
     };
+    Sample3HostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample3-host",
+            templateUrl: "sample3-host.component.html"
+        })
+    ], Sample3HostComponent);
     return Sample3HostComponent;
 }());
-Sample3HostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample3-host",
-        templateUrl: "sample3-host.component.html"
-    })
-], Sample3HostComponent);
 exports.Sample3HostComponent = Sample3HostComponent;
 //# sourceMappingURL=sample3-host.component.js.map

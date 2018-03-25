@@ -30,20 +30,20 @@ var Sample5Component = (function () {
         console.log(this.config.prop1);
         console.log(this.config.prop2);
     };
+    Sample5Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample5",
+            templateUrl: "sample5.component.html",
+            providers: [{
+                    provide: APP_CONFIG,
+                    useValue: config
+                }]
+        }),
+        __param(0, core_1.Inject(APP_CONFIG)),
+        __metadata("design:paramtypes", [Object])
+    ], Sample5Component);
     return Sample5Component;
 }());
-Sample5Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample5",
-        templateUrl: "sample5.component.html",
-        providers: [{
-                provide: APP_CONFIG,
-                useValue: config
-            }]
-    }),
-    __param(0, core_1.Inject(APP_CONFIG)),
-    __metadata("design:paramtypes", [Object])
-], Sample5Component);
 exports.Sample5Component = Sample5Component;
 //# sourceMappingURL=sample5.component.js.map

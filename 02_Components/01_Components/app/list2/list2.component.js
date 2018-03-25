@@ -9,18 +9,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 // Для использования относительных путей, необходимо добавить свойство moduleId и установить значение для свойства module.id
 // Данное свойство необходимо устанавливать в случае если в проекте используется загрузчик systemJS
-var List2Component = (function () {
+var List2Component = /** @class */ (function () {
     function List2Component() {
     }
+    List2Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "list-2",
+            templateUrl: "list2.component.html",
+            styleUrls: ["list2.component.css"]
+        })
+    ], List2Component);
     return List2Component;
 }());
-List2Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "list-2",
-        templateUrl: "list2.component.html",
-        styleUrls: ["list2.component.css"]
-    })
-], List2Component);
 exports.List2Component = List2Component;
 //# sourceMappingURL=list2.component.js.map

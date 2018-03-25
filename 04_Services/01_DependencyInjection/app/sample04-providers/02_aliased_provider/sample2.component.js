@@ -18,18 +18,18 @@ var Sample2Component = (function () {
     Sample2Component.prototype.logMessage = function () {
         this.logger.log(this.message);
     };
+    Sample2Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample2",
+            templateUrl: "sample2.component.html",
+            providers: [index_1.Logger2,
+                { provide: index_1.Logger, useExisting: index_1.Logger2 }] // для токена Logger использовать существующий экземпляр Logger2, а не создавать новый.
+            // Теперь компоненты будут использовать один объект, хотя при внедрении зависимости будут использоваться два разных токена Logger и Logger2 
+        }),
+        __metadata("design:paramtypes", [index_1.Logger])
+    ], Sample2Component);
     return Sample2Component;
 }());
-Sample2Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample2",
-        templateUrl: "sample2.component.html",
-        providers: [index_1.Logger2,
-            { provide: index_1.Logger, useExisting: index_1.Logger2 }] // для токена Logger использовать существующий экземпляр Logger2, а не создавать новый.
-        // Теперь компоненты будут использовать один объект, хотя при внедрении зависимости будут использоваться два разных токена Logger и Logger2 
-    }),
-    __metadata("design:paramtypes", [index_1.Logger])
-], Sample2Component);
 exports.Sample2Component = Sample2Component;
 //# sourceMappingURL=sample2.component.js.map

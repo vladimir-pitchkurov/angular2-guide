@@ -15,14 +15,14 @@ var index_1 = require("./index");
 var SimpleServiceModule = (function () {
     function SimpleServiceModule() {
     }
+    SimpleServiceModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule],
+            declarations: [index_1.DataListComponent],
+            providers: [index_1.DataService]
+        })
+    ], SimpleServiceModule);
     return SimpleServiceModule;
 }());
-SimpleServiceModule = __decorate([
-    core_1.NgModule({
-        imports: [common_1.CommonModule],
-        declarations: [index_1.DataListComponent],
-        providers: [index_1.DataService]
-    })
-], SimpleServiceModule);
 exports.SimpleServiceModule = SimpleServiceModule;
 //# sourceMappingURL=simple-service.module.js.map

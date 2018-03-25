@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var Sample1HostComponent = (function () {
     function Sample1HostComponent() {
     }
+    Sample1HostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample1-host",
+            templateUrl: "sample1-host.component.html"
+        })
+    ], Sample1HostComponent);
     return Sample1HostComponent;
 }());
-Sample1HostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample1-host",
-        templateUrl: "sample1-host.component.html"
-    })
-], Sample1HostComponent);
 exports.Sample1HostComponent = Sample1HostComponent;
 //# sourceMappingURL=sample1-host.component.js.map

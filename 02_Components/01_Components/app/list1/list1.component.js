@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var List1Component = (function () {
     function List1Component() {
     }
+    List1Component = __decorate([
+        core_1.Component({
+            selector: "list-1",
+            templateUrl: "app/list1/list1.component.html",
+            styleUrls: ["app/list1/list1.component.css"]
+        })
+    ], List1Component);
     return List1Component;
 }());
-List1Component = __decorate([
-    core_1.Component({
-        selector: "list-1",
-        templateUrl: "app/list1/list1.component.html",
-        styleUrls: ["app/list1/list1.component.css"]
-    })
-], List1Component);
 exports.List1Component = List1Component;
 //# sourceMappingURL=list1.component.js.map

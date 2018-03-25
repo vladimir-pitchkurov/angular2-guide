@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var phrase_service_1 = require("../shared/phrase.service");
@@ -45,10 +46,11 @@ var PhraseDetailsComponent = (function () {
             moduleId: module.id,
             selector: "phrase-details",
             templateUrl: "phrase-details.component.html"
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, router_1.ActivatedRoute, phrase_service_1.PhraseService])
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" && _a || Object, typeof (_b = typeof router_1.ActivatedRoute !== "undefined" && router_1.ActivatedRoute) === "function" && _b || Object, phrase_service_1.PhraseService])
     ], PhraseDetailsComponent);
     return PhraseDetailsComponent;
+    var _a, _b;
 }());
 exports.PhraseDetailsComponent = PhraseDetailsComponent;
 //# sourceMappingURL=phrase-details.component.js.map

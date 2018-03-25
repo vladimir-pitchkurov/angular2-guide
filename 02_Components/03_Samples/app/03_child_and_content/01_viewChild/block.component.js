@@ -14,14 +14,14 @@ var BlockComponent = (function () {
     BlockComponent.prototype.show = function () {
         this.visible = !this.visible;
     };
+    BlockComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "block",
+            templateUrl: "block.component.html"
+        })
+    ], BlockComponent);
     return BlockComponent;
 }());
-BlockComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "block",
-        templateUrl: "block.component.html"
-    })
-], BlockComponent);
 exports.BlockComponent = BlockComponent;
 //# sourceMappingURL=block.component.js.map

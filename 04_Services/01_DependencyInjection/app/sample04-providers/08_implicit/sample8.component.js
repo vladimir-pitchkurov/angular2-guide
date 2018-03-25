@@ -16,14 +16,14 @@ var Sample8Component = (function () {
         var logger = injector.get(index_1.Logger);
         logger.log("Hello world");
     };
+    Sample8Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample8",
+            templateUrl: "sample8.component.html"
+        })
+    ], Sample8Component);
     return Sample8Component;
 }());
-Sample8Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample8",
-        templateUrl: "sample8.component.html"
-    })
-], Sample8Component);
 exports.Sample8Component = Sample8Component;
 //# sourceMappingURL=sample8.component.js.map

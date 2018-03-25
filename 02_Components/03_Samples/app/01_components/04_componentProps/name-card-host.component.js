@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var NameCardHostComponent = (function () {
     function NameCardHostComponent() {
     }
+    NameCardHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "namecard-host",
+            templateUrl: "name-card-host.component.html"
+        })
+    ], NameCardHostComponent);
     return NameCardHostComponent;
 }());
-NameCardHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "namecard-host",
-        templateUrl: "name-card-host.component.html"
-    })
-], NameCardHostComponent);
 exports.NameCardHostComponent = NameCardHostComponent;
 //# sourceMappingURL=name-card-host.component.js.map

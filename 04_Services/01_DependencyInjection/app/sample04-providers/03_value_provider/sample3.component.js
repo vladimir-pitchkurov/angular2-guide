@@ -23,16 +23,16 @@ var Sample3Component = (function () {
     Sample3Component.prototype.logMessage = function () {
         this.logger.log(this.message);
     };
+    Sample3Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample3",
+            templateUrl: "sample3.component.html",
+            providers: [{ provide: index_1.Logger, useValue: simpleLogger }]
+        }),
+        __metadata("design:paramtypes", [index_1.Logger])
+    ], Sample3Component);
     return Sample3Component;
 }());
-Sample3Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample3",
-        templateUrl: "sample3.component.html",
-        providers: [{ provide: index_1.Logger, useValue: simpleLogger }]
-    }),
-    __metadata("design:paramtypes", [index_1.Logger])
-], Sample3Component);
 exports.Sample3Component = Sample3Component;
 //# sourceMappingURL=sample3.component.js.map

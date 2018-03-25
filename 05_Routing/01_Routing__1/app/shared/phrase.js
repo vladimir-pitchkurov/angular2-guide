@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Phrase = (function () {
     function Phrase(id, firstName, secondName, phone, address, createdAt) {
         this.id = id;

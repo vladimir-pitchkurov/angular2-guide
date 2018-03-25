@@ -28,17 +28,17 @@ var PhraseListComponent = (function () {
         // адрес с обязательным параметром указан в настройках маршрутизации в файле app.routes.ts 
         this.router.navigate(["/phrase", selected.id]);
     };
+    PhraseListComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "phrase-list",
+            templateUrl: "phrase-list.component.html",
+            styleUrls: ["phrase-list.component.css"]
+        }),
+        __metadata("design:paramtypes", [router_1.Router,
+            phrase_service_1.PhraseService])
+    ], PhraseListComponent);
     return PhraseListComponent;
 }());
-PhraseListComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "phrase-list",
-        templateUrl: "phrase-list.component.html",
-        styleUrls: ["phrase-list.component.css"]
-    }),
-    __metadata("design:paramtypes", [router_1.Router,
-        phrase_service_1.PhraseService])
-], PhraseListComponent);
 exports.PhraseListComponent = PhraseListComponent;
 //# sourceMappingURL=phrase-list.component.js.map

@@ -17,19 +17,19 @@ var Block2HostComponent = (function () {
     Block2HostComponent.prototype.showAll = function () {
         this.blocks.forEach(function (x) { return x.show(); });
     };
+    __decorate([
+        core_1.ViewChildren(block2_component_1.Block2Component) // для получения доступа ко всем дочерним компонентам указанного типа
+        ,
+        __metadata("design:type", core_1.QueryList)
+    ], Block2HostComponent.prototype, "blocks", void 0);
+    Block2HostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "block2-host",
+            templateUrl: "block2-host.component.html"
+        })
+    ], Block2HostComponent);
     return Block2HostComponent;
 }());
-__decorate([
-    core_1.ViewChildren(block2_component_1.Block2Component) // для получения доступа ко всем дочерним компонентам указанного типа
-    ,
-    __metadata("design:type", core_1.QueryList)
-], Block2HostComponent.prototype, "blocks", void 0);
-Block2HostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "block2-host",
-        templateUrl: "block2-host.component.html"
-    })
-], Block2HostComponent);
 exports.Block2HostComponent = Block2HostComponent;
 //# sourceMappingURL=block2-host.component.js.map

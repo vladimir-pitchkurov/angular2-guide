@@ -20,23 +20,23 @@ var CounterComponent = (function () {
     CounterComponent.prototype.increment = function () {
         this.counterValue = this.counterValue + this.counterStep;
     };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number)
+    ], CounterComponent.prototype, "counterValue", void 0);
+    __decorate([
+        core_1.Input("step"),
+        __metadata("design:type", Number)
+    ], CounterComponent.prototype, "counterStep", void 0);
+    CounterComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "counter",
+            templateUrl: "counter.component.html",
+            inputs: ["name"]
+        })
+    ], CounterComponent);
     return CounterComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Number)
-], CounterComponent.prototype, "counterValue", void 0);
-__decorate([
-    core_1.Input("step"),
-    __metadata("design:type", Number)
-], CounterComponent.prototype, "counterStep", void 0);
-CounterComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "counter",
-        templateUrl: "counter.component.html",
-        inputs: ["name"]
-    })
-], CounterComponent);
 exports.CounterComponent = CounterComponent;
 //# sourceMappingURL=counter.component.js.map

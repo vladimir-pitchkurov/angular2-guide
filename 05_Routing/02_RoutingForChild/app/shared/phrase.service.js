@@ -37,10 +37,10 @@ var PhraseService = (function () {
         return phrasesPromise
             .then(function (phrases) { return phrases.find(function (x) { return x.id == id; }); });
     };
+    PhraseService = __decorate([
+        core_1.Injectable()
+    ], PhraseService);
     return PhraseService;
 }());
-PhraseService = __decorate([
-    core_1.Injectable()
-], PhraseService);
 exports.PhraseService = PhraseService;
 //# sourceMappingURL=phrase.service.js.map

@@ -17,11 +17,11 @@ var Logger3 = (function () {
     Logger3.prototype.log = function (message) {
         console.log(this.prefix + "_" + message);
     };
+    Logger3 = __decorate([
+        core_1.Injectable(),
+        __metadata("design:paramtypes", [String])
+    ], Logger3);
     return Logger3;
 }());
-Logger3 = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [String])
-], Logger3);
 exports.Logger3 = Logger3;
 //# sourceMappingURL=logger3.service.js.map

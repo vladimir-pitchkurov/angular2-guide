@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var ListHostComponent = (function () {
     function ListHostComponent() {
     }
+    ListHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "list-host",
+            templateUrl: "list-host.component.html"
+        })
+    ], ListHostComponent);
     return ListHostComponent;
 }());
-ListHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "list-host",
-        templateUrl: "list-host.component.html"
-    })
-], ListHostComponent);
 exports.ListHostComponent = ListHostComponent;
 //# sourceMappingURL=list-host.component.js.map

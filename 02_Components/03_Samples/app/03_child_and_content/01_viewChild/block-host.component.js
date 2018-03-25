@@ -17,19 +17,19 @@ var BlockHostComponent = (function () {
     BlockHostComponent.prototype.showBlock = function () {
         this.block.show();
     };
+    __decorate([
+        core_1.ViewChild(block_component_1.BlockComponent) // Для получения доступа к дочернему компоненту
+        ,
+        __metadata("design:type", block_component_1.BlockComponent)
+    ], BlockHostComponent.prototype, "block", void 0);
+    BlockHostComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "block-host",
+            templateUrl: "block-host.component.html"
+        })
+    ], BlockHostComponent);
     return BlockHostComponent;
 }());
-__decorate([
-    core_1.ViewChild(block_component_1.BlockComponent) // Для получения доступа к дочернему компоненту
-    ,
-    __metadata("design:type", block_component_1.BlockComponent)
-], BlockHostComponent.prototype, "block", void 0);
-BlockHostComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "block-host",
-        templateUrl: "block-host.component.html"
-    })
-], BlockHostComponent);
 exports.BlockHostComponent = BlockHostComponent;
 //# sourceMappingURL=block-host.component.js.map

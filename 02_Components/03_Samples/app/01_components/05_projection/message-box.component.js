@@ -14,15 +14,15 @@ var MessageBoxComponent = (function () {
     MessageBoxComponent.prototype.hide = function () {
         this.visible = false;
     };
+    MessageBoxComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "message-box",
+            templateUrl: "message-box.component.html",
+            styleUrls: ["message-box.component.css"]
+        })
+    ], MessageBoxComponent);
     return MessageBoxComponent;
 }());
-MessageBoxComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "message-box",
-        templateUrl: "message-box.component.html",
-        styleUrls: ["message-box.component.css"]
-    })
-], MessageBoxComponent);
 exports.MessageBoxComponent = MessageBoxComponent;
 //# sourceMappingURL=message-box.component.js.map

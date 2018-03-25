@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("./index");
 exports.routs = [
     { path: "list1", component: index_1.List1Component },

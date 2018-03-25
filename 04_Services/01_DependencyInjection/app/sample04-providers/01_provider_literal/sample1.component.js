@@ -18,22 +18,22 @@ var Sample1Component = (function () {
     Sample1Component.prototype.logMessage = function () {
         this.logger.log(this.message);
     };
+    Sample1Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "my-sample1",
+            templateUrl: "sample1.component.html",
+            providers: [{ provide: index_1.Logger, useClass: index_1.Logger }] // поставить комментарий
+            // [Logger] - это сокращенная нотация регистрации провайдера
+            // [{ provide: Logger, useClass: Logger }] - регистрация провайдера с использованием Provider Object Literal
+            // первый параметр - token
+            // второй параметр - provider definition object
+            // альтернативный класс провайдера
+            //providers: [{ provide: Logger, useClass: Logger2 }] // убрать комментарий
+        }),
+        __metadata("design:paramtypes", [index_1.Logger])
+    ], Sample1Component);
     return Sample1Component;
 }());
-Sample1Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "my-sample1",
-        templateUrl: "sample1.component.html",
-        providers: [{ provide: index_1.Logger, useClass: index_1.Logger }] // поставить комментарий
-        // [Logger] - это сокращенная нотация регистрации провайдера
-        // [{ provide: Logger, useClass: Logger }] - регистрация провайдера с использованием Provider Object Literal
-        // первый параметр - token
-        // второй параметр - provider definition object
-        // альтернативный класс провайдера
-        //providers: [{ provide: Logger, useClass: Logger2 }] // убрать комментарий
-    }),
-    __metadata("design:paramtypes", [index_1.Logger])
-], Sample1Component);
 exports.Sample1Component = Sample1Component;
 //# sourceMappingURL=sample1.component.js.map

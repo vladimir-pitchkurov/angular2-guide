@@ -10,14 +10,14 @@ var core_1 = require("@angular/core");
 var ChapterComponent = (function () {
     function ChapterComponent() {
     }
+    ChapterComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "chapter",
+            templateUrl: "chapter.component.html"
+        })
+    ], ChapterComponent);
     return ChapterComponent;
 }());
-ChapterComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "chapter",
-        templateUrl: "chapter.component.html"
-    })
-], ChapterComponent);
 exports.ChapterComponent = ChapterComponent;
 //# sourceMappingURL=chapter.component.js.map

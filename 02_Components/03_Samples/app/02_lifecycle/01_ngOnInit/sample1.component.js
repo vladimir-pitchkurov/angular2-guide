@@ -14,15 +14,15 @@ var Sample1Component = (function () {
     Sample1Component.prototype.ngOnInit = function () {
         console.log(this.name + " initialized.");
     };
+    Sample1Component = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: "sample1",
+            templateUrl: "sample1.component.html",
+            inputs: ["name"]
+        })
+    ], Sample1Component);
     return Sample1Component;
 }());
-Sample1Component = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: "sample1",
-        templateUrl: "sample1.component.html",
-        inputs: ["name"]
-    })
-], Sample1Component);
 exports.Sample1Component = Sample1Component;
 //# sourceMappingURL=sample1.component.js.map

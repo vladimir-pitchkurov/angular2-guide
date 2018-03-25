@@ -13,22 +13,22 @@ var phrase_details_component_1 = require("./phrase-details/phrase-details.compon
 var PhrasesRoutingModule = (function () {
     function PhrasesRoutingModule() {
     }
+    PhrasesRoutingModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                // Определение маршрутов для feature модуля 
+                // Метод forRoot должен использоваться только в AppModule
+                router_1.RouterModule.forChild([
+                    { path: "phrases", component: phrase_list_component_1.PhraseListComponent },
+                    { path: "phrase/:id", component: phrase_details_component_1.PhraseDetailsComponent }
+                ])
+            ],
+            exports: [
+                router_1.RouterModule
+            ]
+        })
+    ], PhrasesRoutingModule);
     return PhrasesRoutingModule;
 }());
-PhrasesRoutingModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            // Определение маршрутов для feature модуля 
-            // Метод forRoot должен использоваться только в AppModule
-            router_1.RouterModule.forChild([
-                { path: "phrases", component: phrase_list_component_1.PhraseListComponent },
-                { path: "phrase/:id", component: phrase_details_component_1.PhraseDetailsComponent }
-            ])
-        ],
-        exports: [
-            router_1.RouterModule
-        ]
-    })
-], PhrasesRoutingModule);
 exports.PhrasesRoutingModule = PhrasesRoutingModule;
 //# sourceMappingURL=phrases-routing.module.js.map
